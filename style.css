@@ -1,0 +1,132 @@
+body{
+    background-color: green;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+
+.row{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 26px;;
+}
+
+.style{
+    background-color:blue; 
+    color:white; 
+    text-align: left; 
+    font-weight:bolder;
+}
+
+.title{
+    text-transform: uppercase;
+    color:blue;
+    text-align: left;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.title:hover{
+    text-decoration:overline;
+    color: red;
+    font-weight: bolder;
+    transition: .5s ease-in-out;
+}
+
+.top-menu{
+    background-color: orange;
+    overflow:scroll;
+}
+
+.top-menu ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid green;
+    padding: 2.5px 5px;
+}
+
+.top-menu ul li a{
+    text-decoration: none;
+    color: green;
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.top-menu ul li:hover{
+    background-color: blue;
+}
+
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: red;
+}
+
+/* .main-image img{
+    width:96%;
+    height: 600;
+} */
+
+.main-image{
+    background-image: url('./Activity\ 6.jpg');
+    background-size: cover;
+    min-height: 90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.main-image h2{
+    color: red;
+    background-color: #ffffff;
+    padding: 30px;
+    opacity: .6;
+    border: 2px solid #248232;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: blue;
+    border: 2px solid red;
+    padding: 8px 32px;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+.btn:hover{
+    background-color: green;
+    color: orange;
+    transition-duration:.2s;
+}
+
+.Welcome p{
+    width: 60%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction:column;
+    background-color: orange;
+}
+
+col{
+    max-width: 50;
+}
+
+.img-fluid{
+    width: 75%;
+    height: auto;
+    object-fit:fill;
+}
